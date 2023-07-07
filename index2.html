@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>§ Elfage</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <div class="picture2">
+      <img src="./Image/mountains-7435127_1280.jpg" alt="Image elfe dans la fôret">
+    </div>
+    <a href="./index.html">
+      <div class="logo">
+        <p class="symbol">
+          §
+        </p>
+        <p class="text-logo">
+         Elfage
+        </p>
+      </div>
+      </a>
+    <form class="input">
+      <input type="number" id="guessInput" min="20" max="200" step="1" required class="input-container" name="search" placeholder="Devinez mon âge">
+      <button class="button-propose" onclick="deviner()">Proposer</button>
+      <p 
+        id="resultat">
+      </p>
+    </form>
+    <div class="warning">
+      <p>
+        Pour rappel, l'Elfe est un personnage d'origine fantastique, la rédaction et l'illustration de ce jeu ont été créées sans tenir compte du genre du protagoniste.<br>De ce fait, aucune interprétation ne doit être faite en comparaison avec l'être humain.<br> De plus, aucun cerf n'a été blessé pour la réalisation de ce jeu.
+      </p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

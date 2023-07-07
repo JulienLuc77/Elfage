@@ -1,0 +1,175 @@
+.white{
+  color: white;
+}
+.main-container {
+  background-color: rgb(0, 4, 53);
+}
+.logo{
+  width: 150px;
+  height: 40px;
+  background-color:rgb(0, 4, 53); 
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  position: absolute;
+  top: 6%;
+  left:10%;
+  transform: translate(-50%, -50%);
+}
+.text-logo{
+  font-family:IM Fell English SC;
+  font-size: 30px;
+  color: white;
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 45px;
+}
+.symbol{
+  font-family:IM Fell English SC;
+  font-size: 32px;
+  color: white;
+  position: fixed;
+  margin-top: 0px;
+  margin-left: 18px;
+  font-weight: 900;
+}
+.picture{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.picture2{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.input{
+  position: absolute;
+  top: 76%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+}
+.input-container{
+  justify-content: center;
+  width: 170px;
+  height: 47px;
+  background-color: rgb(0, 4, 53);
+  border: 1px solid rgb(0, 4, 53);
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  font-size: 18px;
+  outline: none;
+  padding-left: 40px;
+  font-family:IM Fell English SC;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+input[type=number] {
+  color:white;
+  -moz-appearance: textfield;
+  background-color:rgb(0, 4, 53)
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin:0;
+}
+.button-propose{
+  color: white;
+  justify-content: center;
+  width: 140px;
+  height: 47px;
+  background-color: rgb(0, 23, 124);
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  font-size: 18px;
+  outline: none;
+  padding-left: 30px;
+  font-family:IM Fell English SC;
+  margin-left: 35px;
+  padding-right: 30px;
+  margin-top: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.button-propose:hover{
+  background-color: rgb(38, 59, 151);
+  transition: .6s;
+  cursor: pointer;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 21, 116);
+  text-align: center;
+  margin-top: -30vh;
+  margin-left: 12vw;
+  font-size: 30px;
+  font-family:IM Fell English SC;
+}
+.explanation{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 4, 53);
+  text-align: center;
+  margin-top: 10vh;
+  margin-left: 12vw;
+  font-weight: 900;
+  font-family: Dancing script;
+  font-size: 21px;
+}
+.button {
+  width: 200px;
+  height: 60px;
+  background-color:rgb(0, 4, 53); 
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 95%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+}
+.button:hover{
+  background-color: rgb(0, 23, 124);
+  transition: .6s;
+}
+.contenant, a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.start{
+  font-family:IM Fell English SC;
+  color: white;
+  font-size: x-large;
+}
+.warning{
+  position: absolute;
+  top: 110%;
+  left:36%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family:IM Fell English SC;
+}

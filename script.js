@@ -3,14 +3,14 @@ form.addEventListener('submit', (e) => {
   e.preventDefault(); 
 });
   const chiffreMystere = Math.floor(Math.random() * 200) + 1;
-  let nombreEssais = 3;
+  let nombreEssais = 0;
 
   function deviner() {
     const guessInput = document.getElementById('guessInput');
     const resultat = document.getElementById('resultat');
     const guess = parseInt(guessInput.value);
     
-    if (isNaN(guess) || guess < 20 || guess > 200) {
+    if (isNaN(guess) , guess < 20 , guess > 200) {
       resultat.textContent = 'Veuillez saisir un chiffre valide entre 20 et 200.';
       return;
     }
